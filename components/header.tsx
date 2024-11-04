@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import MotionTransition from "./transition";
+import { socialNetworks } from "@/data";
 
 
 const Header = () => {
@@ -15,9 +16,14 @@ const Header = () => {
                         <span className="text-secondary">
                             Dev
                         </span>
-                    </h1>
-                        
+                    </h1>                        
                     </Link>
+                    <div className="flex items-center justify-center gap-7">
+                        {socialNetworks.map(({logo, src, id})=>(
+                            <Link key={id} href={src} target="_blank" className="transition-all duration-300 hover:text-secondary">{logo}</Link>
+                        ))}
+
+                    </div>
                 </div>
             </header>
         </MotionTransition>
