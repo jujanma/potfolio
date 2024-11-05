@@ -65,63 +65,65 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Analista de Operaciones",
+        subtitle: "Padtec",
+        description: "Descripcion de padtec",
+        date: "Ago 2024",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Software Developer",
+        subtitle: "Okorum Technologies",
+        description: "descripcion de okt",
+        date: "Mar 2024",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Frontend Developer",
+        subtitle: "Bancolombia",
+        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros analistas de riesgos en el mundo digital.",
+        date: "Jul 2023 ",
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+    
+   
+    // {
+    //     id: 4,
+    //     title: "Prácticas Grado",
+    //     subtitle: "WebWizards Inc.",
+    //     description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
+    //     date: "Mar 2018",
+    // },
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 2,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
+        endCounter: 200,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 4,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
-    },
+    // {
+    //     id: 3,
+    //     endCounter: 30,
+    //     text: "Premios ganadores",
+    //     lineRight: false,
+    //     lineRightMobile: false,
+    // },
 ];
 
 export const serviceData = [
