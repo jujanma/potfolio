@@ -127,11 +127,11 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
-    {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
+    // {
+    //     icon: <Crop />,
+    //     title: "Branding",
+    //     description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+    // },
     {
         icon: <Pencil />,
         title: "Diseño web",
@@ -139,18 +139,23 @@ export const serviceData = [
     },
     {
         icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        title: "Desarrollo FrontEnd",
+        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades.",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        icon: <Computer />,
+        title: "Desarrollo BackEnd",
+        description: "Desarrollo backend a medida, optimizado para el rendimiento y seguridad de tu aplicación.",
     },
+    // {
+    //     icon: <Book />,
+    //     title: "Copywriting",
+    //     description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+    // },
     {
         icon: <Rocket />,
         title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas. ",
     },
 ];
 
