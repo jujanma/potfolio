@@ -86,7 +86,7 @@ export const dataAboutPage = [
     subtitle: "Padtec",
     description:
       "Analista de operaciones, enfocado a la programacion web, equipo multidisciplinario para empresa dedicada a la venta de equipos de F.O en latinoamerica.",
-    date: "Ago 2024",
+    date: "Ago 2023",
   },
   {
     id: 2,
@@ -94,7 +94,7 @@ export const dataAboutPage = [
     subtitle: "Okorum Technologies",
     description:
       "Desarrollador fullstack en mipres.com, plataforma lider en integracion de profesionales, instituciones y pacientes en una red de prescripciones electronicas, enfocado en optimizar el ciclo completo de medicamentos con alta funcionalidad y rendimiento.",
-    date: "Mar 2024",
+    date: "Mar 2023",
   },
   {
     id: 3,
@@ -102,7 +102,7 @@ export const dataAboutPage = [
     subtitle: "Bancolombia",
     description:
       "Colaborar con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros analistas de riesgos en el mundo digital.",
-    date: "Jul 2023 ",
+    date: "Jul 2022 ",
   },
 
   // {
