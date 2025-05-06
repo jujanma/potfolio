@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import {Urbanist} from "next/font/google";
+import { GoogleTagManager } from '@next/third-parties/google';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
@@ -28,6 +29,9 @@ export default function RootLayout({
         <Navbar />
         <Header />
         {children}
+        {process.env.NODE_ENV === 'production' && process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID} />
+        )}
       </body>
     </html>
   );
