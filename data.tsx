@@ -82,6 +82,14 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
+    title: "Ingeniero de implementación",
+    subtitle: "ADL Digital Lab",
+    description:
+      "Desarrollo e implementación de tags, herramientas de medición digital y captura de datos en aplicaciones, portales web y plataformas de publicidad digital, garantizando una integración eficiente y precisa.",
+    date: "Nov 2024",
+  },
+  {
+    id: 2,
     title: "Analista de Operaciones",
     subtitle: "Padtec",
     description:
@@ -89,7 +97,7 @@ export const dataAboutPage = [
     date: "Ago 2023",
   },
   {
-    id: 2,
+    id: 3,
     title: "Software Developer",
     subtitle: "Okorum Technologies",
     description:
@@ -97,7 +105,7 @@ export const dataAboutPage = [
     date: "Mar 2023",
   },
   {
-    id: 3,
+    id: 4,
     title: "Frontend Developer",
     subtitle: "Bancolombia",
     description:
@@ -178,7 +186,7 @@ export const serviceData = [
     icon: <Rocket />,
     title: "SEO",
     description:
-      "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas. ",
+      "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas y gestión de etiquetas con GTM, Tealium y GA4. ",
   },
 ];
 
